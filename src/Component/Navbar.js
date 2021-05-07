@@ -370,7 +370,7 @@ function Navbar() {
                 </div>
 
                 <div className="f-c">
-                <h3>Follow us</h3>
+                <h3>Follow us On</h3>
                     <a href=""><AiFillFacebook/></a>
                     <a href=""><AiFillInstagram/></a>
                     <a href=""><AiFillYoutube/></a>
