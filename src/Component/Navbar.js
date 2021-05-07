@@ -343,7 +343,7 @@ function Navbar() {
             <footer>
                 <div className="footer">
                 <div className="f-c">
-                    <h3>About Us</h3>
+                    <h3>About Color</h3>
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
