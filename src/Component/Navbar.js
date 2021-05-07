@@ -378,8 +378,9 @@ function Navbar() {
                 </div>
                 </div>
 
+
                 <hr></hr>
-                <p style={{color:'white',textAlign:'center'}}>Website Developed By Praveen Nathan C</p>
+                <p style={{color:'white',textAlign:'center'}}>Website Developed By Praveen Nathan Chokkar</p>
             </footer>
 
         </>
