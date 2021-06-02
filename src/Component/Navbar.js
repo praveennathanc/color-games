@@ -1,8 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import {HashLink, HashLink as Link} from 'react-router-hash-link';
-import{BiGridAlt} from 'react-icons/bi';
+import{BiGridAlt,BiCard,BiDevices,BiMask,BiMobileLandscape,BiPlanet,BiHeadphone} from 'react-icons/bi';
 import{TiTimes} from 'react-icons/ti';
-import{GiAtom} from 'react-icons/gi';
 import{AiFillFacebook,AiFillTwitterSquare,AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
 import{BiJoystick} from 'react-icons/bi'
 import color from '../Component/color.png';
@@ -81,7 +80,7 @@ function Navbar() {
                         <p style={{color:'ghostwhite'}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit, volutpat congue dolor lobortis et. Etiam non risus a lectus lobortis accumsan.</p>
                         <br></br>
                         <br></br>
-                        <a href="#" className="home-button">Download COLOR</a>
+                        <a href="#" className="home-button">Learn More</a>
                     </div>
                 </div>
 
@@ -197,39 +196,39 @@ function Navbar() {
             <div id="section4">
 
                 <div className="sec4-c-title">
-                <h1>Experince The Best Virtual Reality Gaming</h1>
+                <h1>What We Are Doing</h1>
                             <div className="bottom-dec"></div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                 </div>
                 <div className="sec4-content">
                     <div className="sec4-c">
-                       <GiAtom className="sec4-icon" style={{background:'linear-gradient(#11998e,#38ef7d)'}} />
-                       <h3>Heading</h3>
+                       <BiCard className="sec4-icon" style={{background:'linear-gradient(#11998e,#38ef7d)'}} />
+                       <h3>PC Games</h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                     </div>
                     <div className="sec4-c">
                        <BiJoystick className="sec4-icon" style={{background:'linear-gradient(#F37335,#FDC830)'}} />
-                       <h3>Heading</h3>
+                       <h3>Games</h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                     </div>
                     <div className="sec4-c">
-                       <GiAtom className="sec4-icon" style={{background:'linear-gradient(#0083B0,#00B4DB)'}} />
-                       <h3>Heading</h3>
+                       <BiPlanet className="sec4-icon" style={{background:'linear-gradient(#0083B0,#00B4DB)'}} />
+                       <h3>Online Games</h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                     </div>
                     <div className="sec4-c">
-                       <GiAtom className="sec4-icon" style={{background:'linear-gradient(#0083B0,#00B4DB)'}} />
-                       <h3>Heading</h3>
+                       <BiDevices className="sec4-icon" style={{background:'linear-gradient(#f80759,#bc4e9c)'}} />
+                       <h3>Consoles</h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                     </div>
                     <div className="sec4-c">
-                       <GiAtom className="sec4-icon" style={{background:'linear-gradient(#0083B0,#00B4DB)'}} />
-                       <h3>Heading</h3>
+                       <BiMobileLandscape className="sec4-icon" style={{background:'linear-gradient(#cb2d3e,#ef473a)'}} />
+                       <h3>Packet Device</h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                     </div>
                     <div className="sec4-c">
-                       <GiAtom className="sec4-icon" style={{background:'linear-gradient(#0083B0,#00B4DB)'}} />
-                       <h3>Heading</h3>
+                       <BiHeadphone className="sec4-icon" style={{background:'linear-gradient(#0f0c29,#302b63)'}} />
+                       <h3>Accessories</h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,</p>
                     </div>
                 </div>
@@ -249,7 +248,7 @@ function Navbar() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,
                             </p>
                             <br></br>
-                            <a href="" className="sec5-btn">Download</a>
+                            <a href="" className="sec5-btn">Learn More</a>
                         </div>
                     </div>
                     <div className="sec5-c-img">

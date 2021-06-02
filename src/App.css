@@ -42,9 +42,9 @@ body
     float: right;
     list-style-type: none;
 }
-.nav-item:hover
+.nav-item:hover .nav-link
 {
-    background:linear-gradient(to right bottom,#d2e603,#3e978b);
+    color: greenyellow;
 }
 .nav-link
 {
@@ -590,9 +590,9 @@ footer
     }   
     .nav-item
     {
-        float: none;
         margin-top: 30px;
         text-align: center;
+        float: none;
     }
     .joystick-img img
     {
