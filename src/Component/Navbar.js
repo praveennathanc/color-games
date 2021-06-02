@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
-import {HashLink, HashLink as Link} from 'react-router-hash-link';
-import{BiGridAlt,BiCard,BiDevices,BiMask,BiMobileLandscape,BiPlanet,BiHeadphone} from 'react-icons/bi';
+import {HashLink as Link} from 'react-router-hash-link';
+import{BiGridAlt,BiCard,BiDevices,BiMobileLandscape,BiPlanet,BiHeadphone} from 'react-icons/bi';
 import{TiTimes} from 'react-icons/ti';
 import{AiFillFacebook,AiFillTwitterSquare,AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
 import{BiJoystick} from 'react-icons/bi'
@@ -62,11 +62,11 @@ function Navbar() {
                 {
                     navItem
                      ? <nav>
-                          <li className="nav-item"><HashLink to="#section7" smooth className="nav-link">Pre-Order</HashLink></li>
-                        <li className="nav-item"><HashLink to="#section5" smooth className="nav-link">Console</HashLink></li>
-                        <li className="nav-item"><HashLink to="#section3" smooth className="nav-link">VR</HashLink></li>
-                        <li className="nav-item"><HashLink to="#section2" smooth className="nav-link">Games</HashLink></li>
-                        <li className="nav-item"><HashLink to="#home" smooth className="nav-link">Home</HashLink></li>
+                          <li className="nav-item"><Link to="#section7" smooth className="nav-link">Pre-Order</Link></li>
+                        <li className="nav-item"><Link to="#section5" smooth className="nav-link">Console</Link></li>
+                        <li className="nav-item"><Link to="#section3" smooth className="nav-link">VR</Link></li>
+                        <li className="nav-item"><Link to="#section2" smooth className="nav-link">Games</Link></li>
+                        <li className="nav-item"><Link to="#home" smooth className="nav-link">Home</Link></li>
                  </nav>
                  : null
                 }
@@ -80,12 +80,12 @@ function Navbar() {
                         <p style={{color:'ghostwhite'}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit, volutpat congue dolor lobortis et. Etiam non risus a lectus lobortis accumsan.</p>
                         <br></br>
                         <br></br>
-                        <a href="#" className="home-button">Learn More</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="home-button" >Learn More</a>
                     </div>
                 </div>
 
                 <div className="joystick-img">
-                   <img src={joystick}/>
+                   <img src={joystick} alt="joystcik"/>
                    </div>
             </div>
 
@@ -94,7 +94,7 @@ function Navbar() {
             <div id="section1">
                 <div className="section1-content">
                     <div className="sec1-img">
-                        <img src={ps5}></img>
+                        <img src={ps5} alt="ps5"></img>
                     </div>
 
                     <div className="sec1-content-title">
@@ -102,7 +102,7 @@ function Navbar() {
                         <div className="bottom-dec"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit, volutpat congue dolor lobortis et. Etiam non risus a lectus lobortis accumsan.</p>
                         <br></br>
-                        <a href="#" className="sec1-button">Download</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec1-button">Download</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ function Navbar() {
                             </div>
 
                             <div className="sec2-tag-btn">
-                                <a href="">Enter</a>
+                                <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Enter</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ function Navbar() {
                             </div>
 
                             <div className="sec2-tag-btn">
-                                <a href="">Enter</a>
+                                <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Enter</a>
                             </div>
                     </div>
                         </div>
@@ -147,7 +147,7 @@ function Navbar() {
                             </div>
 
                             <div className="sec2-tag-btn">
-                                <a href="">Enter</a>
+                                <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Enter</a>
                             </div>
                         </div>
                         </div>
@@ -158,14 +158,14 @@ function Navbar() {
                             </div>
 
                             <div className="sec2-tag-btn">
-                                <a href="">Enter</a>
+                                <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Enter</a>
                             </div>
                         </div>
                         </div>
                         
                 </div>
 
-                    <img src={joystick2} className="sec2-bg-image"/>
+                    <img src={joystick2}  alt="jy2" className="sec2-bg-image"/>
             </div>
 
 
@@ -182,13 +182,13 @@ function Navbar() {
                             <br></br>
                             
                             <div>
-                            <a href="#" className="sec1-button">Learn More</a>
+                            <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec1-button">Learn More</a>
                             </div>
                            
                         </div>
                     </div>
                     <div className="sec3-bg-img">
-                        <img src={virtualreality}/>
+                        <img src={virtualreality} alt="vr"/>
                     </div>
             </div>
 
@@ -248,11 +248,11 @@ function Navbar() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit,
                             </p>
                             <br></br>
-                            <a href="" className="sec5-btn">Learn More</a>
+                            <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec5-btn">Learn More</a>
                         </div>
                     </div>
                     <div className="sec5-c-img">
-                    <img src={ps5c} className="sec5-bg-img"/>
+                    <img src={ps5c} className="sec5-bg-img" alt="ps5"/>
                     </div>
                 </div>
             </div>
@@ -267,10 +267,10 @@ function Navbar() {
                     <div className="bottom-dec"></div>
                     <br></br>
                     <br></br>
-                    <a href="" className="sec6-btn">Learn More</a>
+                    <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec6-btn">Learn More</a>
                 </div>
                 </div>
-                <img src={pcgames} className="sec6-bg-img"/>
+                <img src={pcgames} className="sec6-bg-img" alt="psgames"/>
                
                
             </div>
@@ -280,10 +280,10 @@ function Navbar() {
                         <div className="sec8-c">
                             <h1>Witness The Best Gaming Experience</h1>
                             <br/>
-                            <a href="#" className="sec8-btn">Enter</a>
+                            <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec8-btn">Enter</a>
                         </div>
 
-                        <img src={whitejs} className="white-joy-stick"/>
+                        <img src={whitejs} className="white-joy-stick" alt="joystick"/>
                 </div>
 
             <div id="section7">
@@ -294,7 +294,7 @@ function Navbar() {
                         <h1>Action</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <br></br>
-                        <a href="#">Pre-Order Now</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Pre-Order Now</a>
                         </div>
                        
                     </div>
@@ -303,7 +303,7 @@ function Navbar() {
                         <h1>Adventure</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <br></br>
-                        <a href="#">Pre-Order Now</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Pre-Order Now</a>
                         </div>
                     </div>
                     <div className="sec7-c">
@@ -311,7 +311,7 @@ function Navbar() {
                         <h1>Sports</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <br></br>
-                        <a href="#">Pre-Order Now</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Pre-Order Now</a>
                         </div>
                     </div>
                     <div className="sec7-c">
@@ -319,7 +319,7 @@ function Navbar() {
                         <h1>Arcade</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <br></br>
-                        <a href="#">Pre-Order Now</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Pre-Order Now</a>
                         </div>
                     </div>
                     <div className="sec7-c">
@@ -327,7 +327,7 @@ function Navbar() {
                         <h1>Racing</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <br></br>
-                        <a href="#">Pre-Order Now</a>
+                        <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Pre-Order Now</a>
                         </div>
                     </div>
                    
@@ -348,32 +348,32 @@ function Navbar() {
                 </div>
                 <div className="f-c">
                     <h3>Head</h3>
-                    <p><a href="">Console</a></p>
-                    <p><a href="">Games</a></p>
-                    <p><a href="">Accessories</a></p>
-                    <p><a href="">Color</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Console</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Games</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Accessories</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Color</a></p>
                 </div>
                 <div className="f-c">
                 <h3>Head</h3>
-                    <p><a href="">Support</a></p>
-                    <p><a href="">Standard</a></p>
-                    <p><a href="">FeedBack</a></p>
-                    <p><a href="">FQS</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Support</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Standard</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">FeedBack</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">FQS</a></p>
                 </div>
                 <div className="f-c">
                 <h3>Head</h3>
-                    <p><a href="">About Color</a></p>
-                    <p><a href="">Terms</a></p>
-                    <p><a href="">Site Map</a></p>
-                    <p><a href="">Rating</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">About Color</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Terms</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Site Map</a></p>
+                    <p><a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer">Rating</a></p>
                 </div>
 
                 <div className="f-c">
                 <h3>Follow us On</h3>
-                    <a href=""><AiFillFacebook/></a>
-                    <a href=""><AiFillInstagram/></a>
-                    <a href=""><AiFillYoutube/></a>
-                    <a href=""><AiFillTwitterSquare/></a>
+                    <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer"><AiFillFacebook/></a>
+                    <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer"><AiFillInstagram/></a>
+                    <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer"><AiFillYoutube/></a>
+                    <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer"><AiFillTwitterSquare/></a>
                 </div>
                 </div>
 
