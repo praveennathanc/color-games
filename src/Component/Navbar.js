@@ -5,12 +5,7 @@ import{TiTimes} from 'react-icons/ti';
 import{AiFillFacebook,AiFillTwitterSquare,AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
 import{BiJoystick} from 'react-icons/bi'
 import color from '../Component/color.png';
-import joystick from '../Component/joystick1.png'
-import joystick2 from '../Component/joystick2.png';
-import virtualreality from '../Component/virtualreality.png';
-import ps5c from '../Component/ps5c.png';
-import pcgames from '../Component/pcgames.png';
-import whitejs from '../Component/ps5w.png'
+
 
 
 function Navbar() {
@@ -84,7 +79,7 @@ function Navbar() {
                 </div>
 
                 <div className="joystick-img">
-                   <img src={joystick} alt="joystcik"/>
+                   <img src="https://i.ibb.co/jJqTQLy/joystick1.png" alt="joystcik"/>
                    </div>
             </div>
 
@@ -164,7 +159,7 @@ function Navbar() {
                         
                 </div>
 
-                    <img src={joystick2}  alt="jy2" className="sec2-bg-image"/>
+                    <img src="https://i.ibb.co/SmMrqLG/joy.png"  alt="jy2" className="sec2-bg-image"/>
             </div>
 
 
@@ -187,7 +182,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="sec3-bg-img">
-                        <img src={virtualreality} alt="vr"/>
+                        <img src="https://i.ibb.co/tCC5SG4/virtualreality.png" alt="vr"/>
                     </div>
             </div>
 
@@ -251,7 +246,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="sec5-c-img">
-                    <img src={ps5c} className="sec5-bg-img" alt="ps5"/>
+                    <img src="https://i.ibb.co/fq4fytN/ps5c.png" className="sec5-bg-img" alt="ps5"/>
                     </div>
                 </div>
             </div>
@@ -269,7 +264,7 @@ function Navbar() {
                     <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec6-btn">Learn More</a>
                 </div>
                 </div>
-                <img src={pcgames} className="sec6-bg-img" alt="psgames"/>
+                <img src="https://i.ibb.co/RYg7f7y/pcgames.png" className="sec6-bg-img" alt="psgames"/>
                
                
             </div>
@@ -282,7 +277,7 @@ function Navbar() {
                             <a href="https://bumper-masters.000webhostapp.com/dummy.html" rel="noreferrer" className="sec8-btn">Enter</a>
                         </div>
 
-                        <img src={whitejs} className="white-joy-stick" alt="joystick"/>
+                        <img src="https://i.ibb.co/8XQFqN5/ps5w.png" className="white-joy-stick" alt="joystick"/>
                 </div>
 
             <div id="section7">
