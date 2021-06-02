@@ -8,7 +8,6 @@ import color from '../Component/color.png';
 import joystick from '../Component/joystick1.png'
 import joystick2 from '../Component/joystick2.png';
 import virtualreality from '../Component/virtualreality.png';
-import ps5 from '../Component/ps5.png';
 import ps5c from '../Component/ps5c.png';
 import pcgames from '../Component/pcgames.png';
 import whitejs from '../Component/ps5w.png'
@@ -94,7 +93,7 @@ function Navbar() {
             <div id="section1">
                 <div className="section1-content">
                     <div className="sec1-img">
-                        <img src={ps5} alt="ps5"></img>
+                        <img src="https://i.ibb.co/hssWQ4b/ps5.png" alt="ps5"></img>
                     </div>
 
                     <div className="sec1-content-title">
