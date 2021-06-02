@@ -75,7 +75,7 @@ function Navbar() {
             <div id="home">
                 <div className="home-content">
                     <div className="home-head-title">
-                        <h1>The Best Game Out Here!</h1>
+                        <h1>The Best Game Is Here!</h1>
                        
                         <p style={{color:'ghostwhite'}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas id mi ac porta. Integer pharetra arcu elit, volutpat congue dolor lobortis et. Etiam non risus a lectus lobortis accumsan.</p>
                         <br></br>
